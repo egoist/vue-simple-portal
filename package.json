@@ -32,7 +32,8 @@
   },
   "bili": {
     "format": [
-      "umd"
+      "umd",
+      "umd-min"
     ],
     "globals": {
       "vue": "Vue"
