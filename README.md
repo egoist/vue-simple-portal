@@ -4,6 +4,8 @@
 
 Simple portal component which allows to mount component anywhere.
 
+Just like [portal-vue](https://github.com/LinusBorg/portal-vue/) but does less.
+
 ## Install
 
 ```bash
