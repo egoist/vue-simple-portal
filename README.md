@@ -65,6 +65,11 @@ The component name for the portal target component.
 
 It's recommended to set a custom name if you used this component for multiple times.
 
+## Gotchas
+
+- `transition` doesn't work yet.
+- You can't see the portal target component in vue-devtools.
+
 ## License
 
 MIT &copy; [EGOIST](https://github.com/EGOIST)
