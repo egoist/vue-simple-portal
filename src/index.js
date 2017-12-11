@@ -26,7 +26,7 @@ export default {
     this.targetEl.appendChild(this.childEl)
     this.childVm = new Vue({
       name: this.componentName,
-      // parent: this,
+      parent: this,
       render(h) {
         return h('div', { staticClass, class: className, attrs }, children)
       }
