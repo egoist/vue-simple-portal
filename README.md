@@ -4,7 +4,7 @@
 
 Simple portal component which allows to mount component anywhere.
 
-Just like [portal-vue](https://github.com/LinusBorg/portal-vue/) but does less.
+This component only does one thing that already existed in [portal-vue](https://github.com/LinusBorg/portal-vue/), which is, mounting component to a target HTML element.
 
 ## Install
 
