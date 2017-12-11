@@ -1,0 +1,48 @@
+{
+  "name": "vue-simple-portal",
+  "version": "0.0.0",
+  "description": "Simple portal component for Vue.js",
+  "repository": {
+    "url": "EGOIST/vue-simple-portal",
+    "type": "git"
+  },
+  "main": "dist/vue-simple-portal.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepublishOnly": "npm test && npm run build",
+    "test": "test-vue-app",
+    "build": "bili",
+    "example": "poi",
+    "build:example": "poi build"
+  },
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com"
+  },
+  "license": "MIT",
+  "poi": {
+    "entry": "example/index.js",
+    "dist": "example/dist",
+    "homepage": "./",
+    "html": {
+      "template": "example/template.ejs"
+    }
+  },
+  "bili": {
+    "format": [
+      "umd"
+    ],
+    "globals": {
+      "vue": "Vue"
+    },
+    "moduleName": "SimplePortal"
+  },
+  "devDependencies": {
+    "bili": "^0.19.0",
+    "poi": "^9.3.10",
+    "test-vue-app": "^1.0.0",
+    "vue-test-utils": "^1.0.0-beta.2"
+  }
+}
